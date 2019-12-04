@@ -1,0 +1,123 @@
+<div id="ajax-page" class="ajax-page-content">
+    <div class="ajax-page-wrapper">
+        <div class="ajax-page-nav">
+            <div class="nav-item ajax-page-prev-next">
+                <a class="ajax-page-load" href="artigo-2.html"><i class="pe-7s-icon pe-7s-angle-right"></i></a>
+            </div>
+            <div class="nav-item ajax-page-close-button">
+                <a id="ajax-page-close-button" href="#"><i class="pe-7s-icon pe-7s-close"></i></a>
+            </div>
+        </div>
+
+        <div class="ajax-page-title">
+            <h1>REAÇÕES A MEDICAMENTOS</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-7 col-md-7 portfolio-block">
+                <div class="owl-carousel portfolio-page-carousel">
+                    <div class="item">
+                        <img src="images/artigo/full_1/1.jpg?V=1" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/artigo/full_1/2.jpg?V=1" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/artigo/full_1/3.jpg?V=1" alt="">
+                    </div>
+                </div>
+                
+
+                <script type="text/javascript">
+                    function customAjaxScroll() {
+                        var windowWidth = $(window).width();
+                        if (windowWidth > 991) {
+                            // Custom Ajax Page Scroll
+                            $("#ajax-page").mCustomScrollbar({
+                                scrollInertia: 8,
+                                documentTouchScroll: false
+                            });
+                        } else {
+                            $("#ajax-page").mCustomScrollbar('destroy');
+                        }
+                    }
+
+                    jQuery(document).ready(function($){
+
+                        // Ajax Loaded Page Scroll
+                        customAjaxScroll();
+
+
+                        $('.portfolio-page-carousel').owlCarousel({
+                            smartSpeed:1200,
+                            items: 1,
+                            loop: true,
+                            dots: true,
+                            nav: true,
+                            navText: false,
+                            margin: 10
+                        });
+
+                    });
+
+                    jQuery(window).on('resize', function() {
+                        customAjaxScroll();
+                    });
+                </script>
+            </div>
+
+            <div class="col-sm-5 col-md-5 portfolio-block">
+                <!-- Project Description -->
+                <div class="block-title">
+                    <h3>Descrição</h3>
+                </div>
+                <ul class="project-general-info">
+                    <li><p><i class="fa fa-user"></i> Rosaly Vieira dos Santos</p></li>
+                    <!-- <li><p><i class="fa fa-globe"></i> <a href="#" target="_blank">www.project-site.com</a></p></li> -->
+                    <li><p><i class="fa fa-calendar"></i> 25 outubro, 2019</p></li>
+                </ul>
+
+                <p class="text-justify"> São várias as reações adversas após a ingestão de medicamentos. Por um lado, podem ocorrer efeitos secundários, por outro lado, podem ser reações alérgicas ou pseudoalérgicas.
+	Efeitos colaterais dos medicamentos não são incomuns e dependem da dose e da duração da droga ingerida. Pode ocorrer interações com outros medicamentos, quando administrados ao mesmo tempo, de modo que a sensibilidade do organismo pode ser alterada se tomar múltiplas medicações.
+	No caso de uma reação alérgica, ocorre uma resposta do sistema imune para a substância estranha e as consequências podem envolver qualquer órgão ou sistema, mas mais comumente pele ou mucosas. Tais reações alérgicas por medicamentos ocorrem independentemente de outras doenças e, geralmente, permanecem ao longo da vida.
+	Nas reações pseudoalérgicas (frequentemente desencadeada, por exemplo, por analgésicos ou narcóticos), não é um mau funcionamento do sistema imunológico. Aqui há uma ativação direta de células no corpo, que em seguida provocam as respostas clínicas. Em raros casos, as substâncias que são utilizadas na produção dos medicamentos, são o gatilho (por exemplo, corantes).
+    É muito importante a história do paciente, como identificar todos os medicamentos em uso, histórico de outras reações a medicamentos, início da administração e da reação, exposição prévia, datas de administração e de suspensão ou mudança de doses de todos medicamentos em uso, além de outros dados como histórico familiar, doença do fígado ou do rim, efeito da suspensão do medicamento.</p>
+    
+    <p class="text-justify"><b>AS MANIFESTAÇÕES CLÍNICAS</b></p>
+    <p class="text-justify">Entre as situações clínicas mais comuns de alergias a medicamentos ou pseudoalergias estão as erupções cutâneas (exantema). O medicamento pode ocasionar manchas ou pápulas (bolinhas), vergões (urticária), vasculite, manchas fixas (cor escura que aparecem sempre no mesmo local), inchaço isolado dos olhos ou dos lábios (angioedema). Muitas vezes, as erupções são acompanhadas por coceira intensa. A formação de bolhas e de lesões abertas, especialmente na mucosa genital e oral, são formas mais graves. Dependendo do tipo alergia, estes sintomas podem aparecer logo após a medicação, ou até mesmo vários dias depois.</p>
+    <p class="text-justify"><b>DIAGNÓSTICO</b></p>
+    <p class="text-justify">O teste de alergia para medicamento através da pele ou exame de sangue é mais significativo apenas para algumas drogas (por exemplo, penicilina ou insulina e, recentemente, a certos anti-inflamatórios). Por conseguinte, muitas vezes o diagnóstico preciso acaba sendo dado pelos chamados “testes de exposição” (ou provocação) com os medicamentos suspeitos. Por segurança, tais testes são realizados sempre por um médico especialista no assunto e em grande parte dentro do hospital. Para diferenciar de reações não específicas (por exemplo, desencadeadas pelo medo) o teste é feito também com placebo, sem o paciente saber qual o é momento do teste do medicamento ou do placebo.</p>
+
+
+
+                <!-- /Project Description -->
+
+                <!-- Technology -->
+                <div class="tags-block">
+                    <div class="block-title">
+                        <h3>Tags</h3>
+                    </div>
+                    <ul class="tags">
+                        <li><a>Medicamentos</a></li>
+                        <li><a>Placebo</a></li>
+                        <li><a>Diagnostico</a></li>
+                        <li><a>Lesões</a></li>
+                        <li><a>Bolhas</a></li>
+                    </ul>
+                </div>
+                <!-- /Technology -->
+
+                <!-- Share Buttons -->
+                <div class="btn-group share-buttons">
+                    <div class="block-title">
+                        <h3>Compartilhar</h3>
+                    </div>
+                    <a href="#" target="_blank" class="btn"><i class="fa fa-facebook"></i> </a>
+                    <a href="#" target="_blank" class="btn"><i class="fa fa-twitter"></i> </a>
+                    <a href="#" target="_blank" class="btn"><i class="fa fa-dribbble"></i> </a>
+                </div>
+                <!-- /Share Buttons -->
+            </div>
+        </div>
+    </div>
+</div>

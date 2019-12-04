@@ -1,0 +1,107 @@
+<div id="ajax-page" class="ajax-page-content">
+    <div class="ajax-page-wrapper">
+        <div class="ajax-page-nav">
+            <div class="nav-item ajax-page-prev-next">
+                <a class="ajax-page-load" href="artigo-2.html"><i class="pe-7s-icon pe-7s-angle-left"></i></a>
+                <a class="ajax-page-load" href="artigo-4.html"><i class="pe-7s-icon pe-7s-angle-right"></i></a>
+            </div>
+            <div class="nav-item ajax-page-close-button">
+                <a id="ajax-page-close-button" href="#"><i class="pe-7s-icon pe-7s-close"></i></a>
+            </div>
+        </div>
+
+        <div class="ajax-page-title">
+            <h1>Alergia a Nozes, Avelã e Amendoim</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-7 col-md-7 portfolio-block">
+                <div class="owl-carousel portfolio-page-carousel">
+                    <div class="item">
+                        <img src="images/artigo/full_3/1.jpg?V=1" alt="">
+                    </div>
+                </div>
+
+                <script type="text/javascript">
+                    function customAjaxScroll() {
+                        var windowWidth = $(window).width();
+                        if (windowWidth > 991) {
+                            // Custom Ajax Page Scroll
+                            $("#ajax-page").mCustomScrollbar({
+                                scrollInertia: 8,
+                                documentTouchScroll: false
+                            });
+                        } else {
+                            $("#ajax-page").mCustomScrollbar('destroy');
+                        }
+                    }
+
+                    jQuery(document).ready(function($) {
+
+                        // Ajax Loaded Page Scroll
+                        customAjaxScroll();
+
+                        $('.portfolio-page-carousel').owlCarousel({
+                            smartSpeed: 1200,
+                            items: 1,
+                            loop: true,
+                            dots: true,
+                            nav: true,
+                            navText: false,
+                            margin: 10
+                        });
+                    });
+
+                    jQuery(window).on('resize', function() {
+                        customAjaxScroll();
+                    });
+                </script>
+            </div>
+
+            <div class="col-sm-5 col-md-5 portfolio-block">
+                <!-- Project Description -->
+                <div class="block-title">
+                    <h3>Descrição</h3>
+                </div>
+                <ul class="project-general-info">
+                    <li>
+                        <p><i class="fa fa-user"></i> Rosaly Vieira dos Santos</p>
+                    </li>
+                    <li>
+                        <p><i class="fa fa-calendar"></i> 04 dezembro, 2019</p>
+                    </li>
+                </ul>
+                <p class="text-justify">
+                    Nozes (castanhas, nozes) incluem em geral: noz, pistache, noz pecan, castanha de caju, castanha do Pará e coco. Uma alergia a um tipo de noz não significa necessariamente evitar todos os tipos de nozes. A compatibilidade entre elas deve ser testada individualmente e sob supervisão médica. A alergia a avelã é uma das alergias alimentares mais comuns em todo mundo. Pode ocorrer isoladamente ou em associação a alergia ao pólen da bétula. A bétula, embora seja uma planta européia, existe no Brasil, e por isso a alergia associada ao pólen ainda é mais comum na Europa que no Brasil. Os sintomas são bem variados. As reações mais leves geralmente ocorrem na boca, como coceira no palato, na garganta, sensação de formigamento na boca. Essas reações recebem o nome de “síndrome alérgica oral”, sintomas muitas vezes desconfortáveis embora sem risco de vida. No entanto, pode ocorrer casos graves de alergia a avelã, com dificuldade respiratória e colapso circulatório. Em tais casos, deve-se evitar totalmente o contato com avelã. Isto nem sempre é fácil hoje em dia, uma vez que não é incomum a avelã estar “escondida” em alguns alimentos, especialmente nos alimentos contendo cacau, como produtos de confeitaria, local onde se manipula avelãs. Há outros alimentos que não se esperaria conter vestígios de avelãs, mas pode conter, como pudins, salsichas, tortas e pães. Também se deve ter o cuidado com alguns alimentos que podem conter avelãs com aqueles que contêm amêndoa, pistache, castanha do Pará, castanha de caju, noz pecan, noz, macadâmia e até mesmo o amendoim. Diferentemente de muitas outras proteínas alergênicas alimentares, a proteína da avelã permanece no alimento mesmo após seu aquecimento ou processamento. Sempre verifique a lista de ingredientes de determinado produto e evite aquele que contenha avelã e mesmo aqueles produtos que não dão a certeza que não contem avelã. Pacientes com alergia grave a avelã deve sempre ter a mão um kit emergência (anti-histamínico, corticóide, adrenalina e spray para asma) para agir a tempo em uma emergência. Pergunte ao seu médico a forma correta de uso e explique a um parente ou amigo próximo como se usa essas medicações. Esses cuidados servem não só para avelã, mas para nozes, amendoim e vários outros ingredientes. Se você tem alguma dúvida ou se suspeita de alguma alergia alimentar, procure um especialista que possa melhor lhe orientar para lhe proporcionar melhor qualidade de vida, sem correr qualquer risco à saúde.
+                </p>
+                <!-- /Project Description -->
+
+                <!-- Technology -->
+                <div class="tags-block">
+                    <div class="block-title">
+                        <h3>Tags</h3>
+                    </div>
+                    <ul class="tags">
+                        <li><a>Castanhas</a></li>
+                        <li><a>Nozes</a></li>
+                        <li><a>coceira</a></li>
+                        <li><a>pistache</a></li>
+                        <li><a>Alergia</a></li>
+                    </ul>
+                </div>
+                <!-- /Technology -->
+
+                <!-- Share Buttons -->
+                <!-- <div class="btn-group share-buttons">
+                    <div class="block-title">
+                        <h3>Compartilhar</h3>
+                    </div>
+                    <a href="#" target="_blank" class="btn"><i class="fa fa-facebook"></i> </a>
+                    <a href="#" target="_blank" class="btn"><i class="fa fa-twitter"></i> </a>
+                    <a href="#" target="_blank" class="btn"><i class="fa fa-dribbble"></i> </a>
+                </div> -->
+                <!-- /Share Buttons -->
+            </div>
+        </div>
+    </div>
+</div>
