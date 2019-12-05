@@ -322,7 +322,7 @@ Pós-doutorado em Urticária, no serviço de Alergia e Dermatologia do Hospital 
                     <!-- Artigo Item 1 -->
                     <figure class="item" data-groups='["all", "media"]'>
                       <a class="ajax-page-load" href="artigo-1.html">
-                        <img src="images/artigo/1.jpg" alt="">
+                        <img src="images/artigo/1.jpg?v=1" alt="">
                         <div>
                           <h5 class="name">REAÇÕES A MEDICAMENTOS</h5>
                           <small>Artigo</small>
