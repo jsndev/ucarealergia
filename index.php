@@ -335,7 +335,7 @@ Pós-doutorado em Urticária, no serviço de Alergia e Dermatologia do Hospital 
                     <!-- Artigo Item 2 -->
                     <figure class="item" data-groups='["all", "media"]'>
                       <a class="ajax-page-load" href="artigo-2.html">
-                        <img src="images/artigo/2.jpg" alt="">
+                        <img src="images/artigo/2.jpg?v=1" alt="">
                         <div>
                           <h5 class="name">Urticária</h5>
                           <small>Artigo</small>
@@ -445,16 +445,7 @@ Pós-doutorado em Urticária, no serviço de Alergia e Dermatologia do Hospital 
                         <i class="pe-7s-icon pe-7s-call"></i>
                       </div>
                       <div class="ci-text">
-                        <h5>(41) 3092-1846</h5>
-                      </div>
-                    </div>
-
-                    <div class="contact-info-block">
-                      <div class="ci-icon">
-                        <i class="pe-7s-icon pe-7s-call"></i>
-                      </div>
-                      <div class="ci-text">
-                        <h5>(41) 99897-1846</h5>
+                        <h5>(41) 3092-1846 / (41) 99897-1846</h5>
                       </div>
                     </div>
 
