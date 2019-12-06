@@ -446,6 +446,7 @@ Pós-doutorado em Urticária, no serviço de Alergia e Dermatologia do Hospital 
                       </div>
                       <div class="ci-text">
                         <h5>(41) 3092-1846</h5>
+                        <h5>(41) 99897-1846</h5>
                       </div>
                     </div>
                     <div class="contact-info-block">
@@ -453,8 +454,7 @@ Pós-doutorado em Urticária, no serviço de Alergia e Dermatologia do Hospital 
                         <i class="pe-7s-icon pe-7s-timer"></i>
                       </div>
                       <div class="ci-text">
-                        <h5>(Manha) Terça-Feira: 08:40 - 12:00</h5>
-                        <h5>(Tarde) Segunda - Sexta: 13:20 - 16:20</h5>
+                        <h5>Segunda a Sexta: 08:00 ao 12:00 e 13:00 as 18:00</h5>
                       </div>
                     </div>
                   </div>
