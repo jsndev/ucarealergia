@@ -45,19 +45,19 @@
           <!-- Main menu -->
           <ul id="nav" class="site-main-menu">
             <li>
-              <a class="pt-trigger" href="https://www.ucarealergia.com.br/#home" data-animation="21"><i class="menu-icon pe-7s-icon pe-7s-home"></i>Início</a><!-- href value = data-id without # of .pt-page. -->
+              <a class="pt-trigger" href="#home" data-animation="21"><i class="menu-icon pe-7s-icon pe-7s-home"></i>Início</a><!-- href value = data-id without # of .pt-page. -->
             </li>
             <li>
-              <a class="pt-trigger" href="https://www.ucarealergia.com.br/#about_me" data-animation="17"><i class="menu-icon pe-7s-icon pe-7s-user"></i>Sobre</a>
+              <a class="pt-trigger" href="#about_me" data-animation="17"><i class="menu-icon pe-7s-icon pe-7s-user"></i>Sobre</a>
             </li>
             <li>
-              <a class="pt-trigger" href="https://www.ucarealergia.com.br/#resume" data-animation="18"><i class="menu-icon pe-7s-icon pe-7s-id"></i>Curriculum</a>
+              <a class="pt-trigger" href="#resume" data-animation="18"><i class="menu-icon pe-7s-icon pe-7s-id"></i>Curriculum</a>
             </li>
             <li>
-              <a class="pt-trigger" href="https://www.ucarealergia.com.br/#portfolio" data-animation="19"><i class="menu-icon pe-7s-icon pe-7s-portfolio"></i>Artigos</a>
+              <a class="pt-trigger" href="#portfolio" data-animation="19"><i class="menu-icon pe-7s-icon pe-7s-portfolio"></i>Artigos</a>
             </li>
             <li>
-              <a class="pt-trigger" href="https://www.ucarealergia.com.br/#contact" data-animation="20"><i class="menu-icon pe-7s-icon pe-7s-mail"></i>Contato</a>
+              <a class="pt-trigger" href="#contact" data-animation="20"><i class="menu-icon pe-7s-icon pe-7s-mail"></i>Contato</a>
             </li>
           </ul>
           <!-- /Main menu -->
