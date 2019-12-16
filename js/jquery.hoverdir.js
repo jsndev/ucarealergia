@@ -111,10 +111,10 @@
 		_getStyle : function( direction ) {
 			
 			var fromStyle, toStyle,
-				slideFromTop = { left : '0px', top : '-100%' },
-				slideFromBottom = { left : '0px', top : '100%' },
-				slideFromLeft = { left : '-100%', top : '0px' },
-				slideFromRight = { left : '100%', top : '0px' },
+				slideFromTop = { left : '0px', top : '0px' },
+				slideFromBottom = { left : '0px', top : '0px2' },
+				slideFromLeft = { left : '0px', top : '0px' },
+				slideFromRight = { left : '0px2', top : '0px' },
 				slideTop = { top : '0px' },
 				slideLeft = { left : '0px' };
 			
@@ -148,7 +148,7 @@
 		_applyAnimation : function( el, styleCSS, speed ) {
 
 			$.fn.applyStyle = this.support ? $.fn.css : $.fn.animate;
-			el.stop().applyStyle( styleCSS, $.extend( true, [], { duration : speed + 'ms' } ) );
+			//el.stop().applyStyle( styleCSS, $.extend( true, [], { duration : speed + 'ms' } ) );
 
 		},
 

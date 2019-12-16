@@ -310,9 +310,20 @@ Pós-doutorado em Urticária, no serviço de Alergia e Dermatologia do Hospital 
                   <!-- Portfolio filter -->
                   <ul id="portfolio_filters" class="portfolio-filters">
                     <li class="active">
-                      <a class="filter btn btn-sm btn-link active" data-group="all">Artigos<a>
+                      <a class="filter btn btn-sm btn-link active" data-group="filter_1">Todos</a>
                     </li>
-                  
+                    <li>
+                      <a class="filter btn btn-sm btn-link" data-group="filter_2">Urticárias</a>
+                    </li>
+                    <li>
+                      <a class="filter btn btn-sm btn-link" data-group="filter_3">Alergias</a>
+                    </li>
+                    <li>
+                      <a class="filter btn btn-sm btn-link" data-group="filter_4">Medicamentos</a>
+                    </li>
+                    <li>
+                      <a class="filter btn btn-sm btn-link" data-group="filter_5">Intolerâncias</a>
+                    </li>
                   </ul>
                   <!-- End of Portfolio filter -->
 
@@ -320,12 +331,12 @@ Pós-doutorado em Urticária, no serviço de Alergia e Dermatologia do Hospital 
                   <div id="portfolio_grid" class="portfolio-grid portfolio-masonry masonry-grid-3">
 
                     <!-- Artigo Item 1 -->
-                    <figure class="item" data-groups='["all", "media"]'>
+                    <figure class="item" data-groups='["filter_1", "filter_4"]'>
                       <a class="ajax-page-load" href="artigo-1.html">
                         <img src="images/artigo/1.jpg?v=1" alt="">
-                        <div>
+                        <div style="display: block; left: 0px; top: 0px%;">
                           <h5 class="name">REAÇÕES A MEDICAMENTOS</h5>
-                          <small>Artigo</small>
+                          <small>Medicamentos</small>
                           <i class="pe-7s-icon pe-7s-display2"></i>
                         </div>
                       </a>
@@ -333,12 +344,12 @@ Pós-doutorado em Urticária, no serviço de Alergia e Dermatologia do Hospital 
                     <!-- /Artigo Item 1 -->
 
                     <!-- Artigo Item 2 -->
-                    <figure class="item" data-groups='["all", "media"]'>
+                    <figure class="item" data-groups='["filter_1", "filter_2"]'>
                       <a class="ajax-page-load" href="artigo-2.html">
                         <img src="images/artigo/2.jpg?v=1" alt="">
-                        <div>
+                        <div style="display: block; left: 0px; top: 0px%;">
                           <h5 class="name">Urticária</h5>
-                          <small>Artigo</small>
+                          <small>Urticárias</small>
                           <i class="pe-7s-icon pe-7s-display2"></i>
                         </div>
                       </a>
@@ -346,12 +357,12 @@ Pós-doutorado em Urticária, no serviço de Alergia e Dermatologia do Hospital 
                     <!-- /Artigo Item 2 -->
 
                     <!-- Artigo Item 3 -->
-                    <figure class="item" data-groups='["all", "media"]'>
+                    <figure class="item" data-groups='["filter_1", "filter_3"]'>
                       <a class="ajax-page-load" href="artigo-3.html">
                         <img src="images/artigo/3.jpg" alt="">
-                        <div>
+                        <div style="display: block; left: 0px; top: 0px%;">
                           <h5 class="name">Alergia a Nozes, Avelã e Amendoim</h5>
-                          <small>Artigo</small>
+                          <small>Alergias</small>
                           <i class="pe-7s-icon pe-7s-display2"></i>
                         </div>
                       </a>
@@ -359,12 +370,12 @@ Pós-doutorado em Urticária, no serviço de Alergia e Dermatologia do Hospital 
                     <!-- /Artigo Item 3 -->
 
                     <!-- Artigo Item 4 -->
-                    <figure class="item" data-groups='["all", "media"]'>
+                    <figure class="item" data-groups='["filter_1", "filter_2"]'>
                       <a class="ajax-page-load" href="artigo-4.html">
                         <img src="images/artigo/4.jpg" alt="">
-                        <div>
+                        <div style="display: block; left: 0px; top: 0px%;">
                           <h5 class="name">URTICÁRIA E PSEUDOALERGIA ALIMENTAR</h5>
-                          <small>Artigo</small>
+                          <small>Urticárias</small>
                           <i class="pe-7s-icon pe-7s-display2"></i>
                         </div>
                       </a>
@@ -372,12 +383,12 @@ Pós-doutorado em Urticária, no serviço de Alergia e Dermatologia do Hospital 
                     <!-- /Artigo Item 4 -->
 
                     <!-- Artigo Item 5 -->
-                    <figure class="item" data-groups='["all", "media"]'>
+                    <figure class="item" data-groups='["filter_1", "filter_5"]'>
                       <a class="ajax-page-load" href="artigo-5.html">
                         <img src="images/artigo/5.jpg" alt="">
-                        <div>
+                        <div style="display: block; left: 0px; top: 0px%;">
                           <h5 class="name">INTOLERÂNCIA À LACTOSE</h5>
-                          <small>Artigo</small>
+                          <small>Intolerâncias</small>
                           <i class="pe-7s-icon pe-7s-display2"></i>
                         </div>
                       </a>
@@ -385,17 +396,30 @@ Pós-doutorado em Urticária, no serviço de Alergia e Dermatologia do Hospital 
                     <!-- /Artigo Item 5 -->
 
                     <!-- Artigo Item 6 -->
-                    <figure class="item" data-groups='["all", "media"]'>
+                    <figure class="item" data-groups='["filter_1", "filter_3"]'>
                       <a class="ajax-page-load" href="artigo-6.html">
                         <img src="images/artigo/6.jpg" alt="">
-                        <div>
+                        <div style="display: block; left: 0px; top: 0px%;">
                           <h5 class="name">FUNGOS: DICAS E SUGESTÕES PARA PACIENTES ALÉRGICOS</h5>
-                          <small>Artigo</small>
+                          <small>Alergias</small>
                           <i class="pe-7s-icon pe-7s-display2"></i>
                         </div>
                       </a>
                     </figure>
                     <!-- /Artigo Item 6 -->
+
+                    <!-- Artigo Item 7 -->
+                    <figure class="item" data-groups='["filter_1", "filter_3"]'>
+                      <a class="ajax-page-load" href="artigo-7.html">
+                        <img src="images/artigo/7.jpg" alt="">
+                        <div style="display: block; left: 0px; top: 0px%;">
+                          <h5 class="name">ALÉRGICOS A PÓLENS</h5>
+                          <small>Alergias</small>
+                          <i class="pe-7s-icon pe-7s-display2"></i>
+                        </div>
+                      </a>
+                    </figure>
+                    <!-- /Artigo Item 7 -->
 
 
                   </div>
@@ -455,6 +479,7 @@ Pós-doutorado em Urticária, no serviço de Alergia e Dermatologia do Hospital 
                       </div>
                       <div class="ci-text">
                         <h5>Segunda a Sexta: 08:00/12:00 e 13:00/18:00</h5>
+                        <h6>* Horários diferenciados para atendimento de urticárias.</h6>
                       </div>
                     </div>
                   </div>

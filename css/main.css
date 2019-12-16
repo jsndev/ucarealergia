@@ -1403,6 +1403,7 @@ ul.social-links li:last-child a {
 
 .portfolio-grid figure a:hover div {
   left: 0px;
+  background: none
 }
 
 .portfolio-grid figure {
@@ -1437,6 +1438,13 @@ ul.social-links li:last-child a {
   font-size: 1rem;
   margin: 10px 0;
   color: #222;
+}
+
+.portfolio-grid figure a:hover div h5 {
+  display: inline-block;
+  font-size: 1rem;
+  margin: 10px 0;
+  color: #FFFFFF;
 }
 
 .portfolio-grid figure a div small {
